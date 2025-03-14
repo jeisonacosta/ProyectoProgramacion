@@ -18,7 +18,7 @@ def main():
   """Función principal del programa."""
   try:
     peso = float(input("Ingrese su peso en toneladas: "))
-    altura = float(input("Ingrese su altura en metros: "))
+    altura = float(input("Ingrese su altura en centimetros: "))
 
     imc = calcular_imc(peso, altura)
     clasificacion = clasificar_imc(imc)
